@@ -11,7 +11,7 @@ public class mainframe{
         f.getContentPane().setBackground(Color.black);
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         f.setSize(768, 748);
-        ImageIcon img=new ImageIcon("assets/brick.png");
+        ImageIcon img=new ImageIcon("brick.png");
         f.setIconImage(img.getImage());
         JLabel gmstart=new JLabel();
         gmstart.setForeground(Color.red);
